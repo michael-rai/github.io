@@ -1,0 +1,22 @@
+.icon {
+  font-size: 4rem;
+}
+
+.color-text {
+  color: #64a19d;
+}
+
+#aboutsection {
+  color: #64a19d;
+}
+
+#wellness {
+  border-style: outset;
+  color: #64a19d;
+  margin-left: 50px;
+}
+
+#digiMedia {
+  background-image: url('../img/demo-image-01.jpg');
+  background-size: cover;
+}
