@@ -487,25 +487,25 @@
   </header>
 
   <div class="btn-group" role="group" aria-label="Basic example" data-aos="fade-in" data-aos-duration="4000">
-  <button type="button" class="btn btn-secondary" data-target="workhistory">Work History</button>
+  <button type="button" class="btn btn-secondary">Work History</button>
   <button type="button" class="btn btn-secondary">Education</button>
 </div>
   <hr>
   <br>
- Working on a clever way to display all this information, for now its available in my resume. I will have this updated in 24hrs!
+ Working on a clever way to display all this information, please check back for updates! 
   <!-- work history accordian -->
 
-  <div class="accordion" id="workhistory" hidden>
+  <div class="accordion" id="accordionExample" data-aos="slide-right" data-aos-duration="4000">
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingOne">
       <h6 class="mb-0">
-        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           General Assembly
         </button>
       </h6>
     </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapseOne" class="collapse-show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body text-white-50">
         <p><strong>Web Developer Fellow</strong></p>
         <p>Providence, RI</p>
@@ -517,7 +517,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingTwo">
       <h6 class="mb-0">
-        <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Tempus Unlimited, Inc.
         </button>
       </h6>
@@ -534,7 +534,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingThree">
       <h6 class="mb-0">
-        <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Blue Cross Blue Shield of RI
         </button>
       </h6>
@@ -551,7 +551,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingSeven">
       <h6 class="mb-0">
-        <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        <button class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
           American Student Assistance
         </button>
       </h6>
@@ -568,7 +568,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingFour">
       <h6 class="mb-0">
-        <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <button class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Bank of America
         </button>
       </h6>
@@ -585,7 +585,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingFive">
       <h6 class="mb-0">
-        <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <button class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
           Cardi's Furniture
         </button>
       </h6>
@@ -602,7 +602,7 @@
   <div class="card bg-black border-secondary">
     <div class="card-header" id="headingSix">
       <h6 class="mb-0">
-        <button id="linkColor" class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <button id="linkColor" class="btn btn-secondary collapsed btn-block" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
           Prince William County
         </button>
       </h6>
@@ -621,6 +621,10 @@
 
 
           </div>
+
+          <!--Education History -->
+
+
         </div>
       </div>
     </section>
@@ -721,6 +725,7 @@
       $('#offlinePop').tooltip()
       $('#resDown').tooltip();
     })</script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
