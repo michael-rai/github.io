@@ -42,6 +42,10 @@
 
     <!--  custom css-->
     <link rel="stylesheet" href="css/custom.css">
+
+    <!-- my fade in scroll js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
 
   <body id="page-top">
@@ -115,7 +119,7 @@
 <!-- About Section -->
     <section id="about" class="about-section text-align-left">
 
-      <div class="container">
+      <div class="container" data-aos="fade-in" data-aos-duration="4000">
         <img src="public/mrai_pro.jpg" class="michael" alt="" id="michael" height="650px" align="left">
             <div class="text-white-50">
             <div id="aboutsection"><h1><strong>About</strong></h1></div>
@@ -645,7 +649,7 @@
                 <h4 class="text-uppercase m-0">Email</h4>
                 <hr class="my-4">
                 <div class="small text-black-50">
-                  <a href="public/MichaelRai_WebDevResumeDownload.pdf" target="_blank">Available in Resume</a>
+                  <a href="public/MichaelRai_SoftwareEngineer_ResumeDownload.pdf" target="_blank">Available in Resume</a>
                 </div>
               </div>
             </div>
@@ -658,7 +662,7 @@
                 <h4 class="text-uppercase m-0">Phone</h4>
                 <hr class="my-4">
                 <div class="small text-black-50">
-                  <a href="public/MichaelRai_WebDevResumeDownload.pdf" target="_blank">Available in Resume</a>
+                  <a href="public/MichaelRai_SoftwareEngineer_ResumeDownload.pdf" target="_blank">Available in Resume</a>
                   </div>
               </div>
             </div>
@@ -717,6 +721,11 @@
       $('#offlinePop').tooltip()
       $('#resDown').tooltip();
     })</script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(4000);
+  </script>
 
   </body>
 
