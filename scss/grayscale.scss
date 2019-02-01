@@ -8,6 +8,27 @@
 @import 'signup.scss';
 @import 'contact.scss';
 
+@keyframes type2 {
+  0% { width: 0; }
+  50% { width: 0; }
+  100% { width: 100; }
+}
+
+@keyframes blink {
+  to { opacity: 0; }
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -5px #fff; }
+  40% { box-shadow: 0 0 50px #fff; }
+  60% { box-shadow: 0 0 50px #fff; }
+  100% { box-shadow: 0 0 -5px #fff; }
+}
+
+#glow {
+  animation: glowing 2000ms infinite;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
