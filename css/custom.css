@@ -25,3 +25,12 @@
   background-image: url('../img/demo-image-01.jpg');
   background-size: cover;
 }
+
+.carousel-item img {
+  height: 350px;
+  width: 80%;
+}
+
+#carouselExampleIndicators {
+  color: #64a19d;
+}
